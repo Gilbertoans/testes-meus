@@ -1,74 +1,98 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <title>Teste</title>
+    
+
+    <title>Site responsivel</title>
 </head>
 <body>
-    <div id="area-cabecalho">
-        <div id="logo">
-            <h1>Tec<span class="branco" >Blog</span> </h1>
-        </div>
-    </div>
+    <nav>
+        <a href="#">Ricardo fotos</a>
 
-    <ul id="links">
-        <li><a href="#">Link1</a></li>
-        <li><a href="#">Link2</a></li>
-        <li><a href="#">Link3</a></li>
-        <li><a href="#">Link4</a></li>
-        <li><a href="#">Link5</a></li>
-    </ul>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
 
-    <div id="principal">
-        <div id="area-postagens">
-            <div class="postagens">
-                <h2>Titulo postagem 1</h2>
-                <span class="data-postagem">publicado em 20 de março de 2022</span>
-                <img src="img2/imagem1.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque doloremque debitis ipsa assumenda.
-                     Sed dolorem quis mollitia a! Minus eaque ex maiores corrupti nobis cupiditate alias nulla ipsum sed?</p>
-                <a href="#">leia Mais</a>     
-            </div>
-            <div class="postagens">
-                <h2>Titulo postagem 1</h2>
-                <span class="data-postagem">publicado em 20 de março de 2022</span>
-                <img src="img2/imagem2.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque doloremque debitis ipsa assumenda.
-                     Sed dolorem quis mollitia a! Minus eaque ex maiores corrupti nobis cupiditate alias nulla ipsum sed?</p>
-                     <a href="#">leia Mais</a>   
-            </div>
-           
+    </nav>
+
+    <header id="topo">
+        <h1>Fotográfo Profissional</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quibusdam ipsam totam, excepturi sed quasi delectus optio aperiam eligendi minima et
+            dolore velit earum dolorum sapiente nisi saepe molestiae commodi?
+        </p>
+        <a href="#serviço" class="botao">Ver mais</a>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit omnis rerum, sed, expedita nesciunt numquam cum, illum officia rem unde saepe consequatur
+         dolore nemo obcaecati sapiente quisquam ipsam ratione ducimus.</p>
+         <a href="#contato" class="botao">Contratar agora</a>
+    </section>
+    <section id="serviços">
+        <h2>Serviços</h2>
+        <div>
+            <img src="img/p1.png" alt="fotografia 1">
+            <h3>Fotografias</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>  
+        <div>
+            <img src="img/p2.png" alt="filme">
+            <h3>Edição de video</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div> 
+        <div>
+            <img src="img/p3.png" alt="videoplayer1">
+            <h3>Captação de imagem</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div> 
+        <div>
+            <img src="img/p4.png" alt="tratamento">
+            <h3>Tratamento de imagem</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div> 
+    </section>
+
+    <section id="fotos">
+            <h2>Fotos</h2>
+            <img src="img/ceu.jpg" alt="ceu">
+            <img src="img/grama.jpg" alt="grama">
+            <img src="img/mar.jpg" alt="mar">
+            <img src="img/montanha.jpg" alt="montanha">
+            <img src="img/ponte.jpg" alt="ponte">
+            <img src="img/arvores.jpg" alt="arvores">
+
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Vem falar com a gente</p>
+        <div>
+            <img src="img/tel.png" alt="telefone">
+            <p><a href="#">(xx)xxxx-xxxx</a></p>
         </div>
-        <div id="area-lateral">
-            <div class="conteudo-lateral">
-                <h3>Postagens recentes</h3>
-                <div class="edited">
-                    <h4>Postagem 1</h4>
-                   <p class="texto-lateral"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                   <a href="#">Leia mais</a>
-                </div>
-                <hr>
-                <div class="edited">
-                    <h4>Postagem 1</h4>
-                   <p class="texto-lateral"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                   <a href="#">Leia mais</a>
-                </div>
-            </div>
-            <div class="conteudo-lateral">
-                <h3>Categorias</h3>
-                <a href="#">Jogos</a><br>
-                <a href="#">Celulares</a><br>
-                <a href="#">Informática</a><br>
-                <a href="#">Eletrônicos</a><br>
-            </div>  
+        <div>
+            <img src="img/mail.png" alt="e-mail">
+            <p><a href="mailto:emailaqui">email@email.com.br</a></p>
         </div>
-        <div id="rodape">
-            todos os direitos reservados
-        </div>
-    </div>
-    
+
+    </section>
+
+    <footer>
+        <a href="#topo">Voltar</a>
+
+        <p>Site feito por Gilberto Anschau pelo tutorial da hostiger brasil</p>
+    </footer>
 </body>
 </html>
